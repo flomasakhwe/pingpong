@@ -1,3 +1,7 @@
+
+body{
+  height:2000px;
+}
 .intro {
   background-image: url("../images/pingpong.jpg");
   background-repeat: no-repeat;
@@ -15,7 +19,7 @@
   font-size:60px;
   font-family:Titan One;
 }
-#rules h2{
+#rules h1{
   font-size: 40px;
 }
 #rules p{
@@ -29,4 +33,10 @@
  height: 50px;
  width:80%;
  font-size: 20px;
+}
+#about{
+  border: 5px solid;
+  border-style: dotted;
+  background-color: #072b52;
+  color:#bdd0cf;
 }
