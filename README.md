@@ -6,12 +6,18 @@ Instead of seeing a complete list of numbers though, a few of the numbers in the
 Florah Masakhwe
 
 ### Speculations
-.Numbers divisible by 3 become 'ping'
-.Numbers divisible by 5 become 'pong'
-.Numbers divisible by 15 become 'pingpong'
+
+##### Numbers divisible by 3 become 'ping'
+##### Numbers divisible by 5 become 'pong'
+##### Numbers divisible by 15 become 'pingpong'
 
 ### Example
 #### Example Input: 15
 #### Example Output:(1,2,ping,4,pong,6,7,8,9,10,11,12,13,14,pingpong)
 
-## Setup
+## Languages Used
+HTML
+CSS
+JavaScript
+
+##
