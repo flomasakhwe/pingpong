@@ -20,4 +20,7 @@ HTML
 CSS
 JavaScript
 
-##
+### Link to deployed site
+flomasakhwe.github.io/pingpong/
+
+Copyright (c)2018 GitHub.Inc.
