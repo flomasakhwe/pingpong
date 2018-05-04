@@ -1,0 +1,17 @@
+.intro {
+  background-image: url("../images/pingpong.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding:80px;
+  width:100%;
+  text-align: center;
+}
+.intro h1{
+  font-size: 160px;
+  color: white;
+}
+.intro p{
+  font-size:60px;
+  font-family:Titan One;
+}
