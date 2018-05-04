@@ -1,44 +1,51 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
+
   <head>
 
-    <script src"js/scripts.js"></script>
-    <link  href="css/styles.css" rel="stylesheet" type="text/css">
-    <link  href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <script src "js/scripts.js"></script>
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Titan+One" rel="stylesheet">
     <title>Ping Pong</title>
   </head>
+
   <body>
     <div class="intro">
       <h1>Ping Pong</h1>
-       Let's play!
+        <p>Let's play!</p>
     </div>
-       <h2>Rules:</h2>
-        <p>Ping Pong will count up to your number from 1 with the following exceptions:</p>
-          <ol>
-            <li>Numbers divisible by 3 become "ping"</li>
-            <li>Numbers divisible by 5 become "pong"</li>
-            <li>Numbers divisible by 15 become "pingpong"</li>
-          </ol>
-      <div class="container-fluid">
-          <form id="game">
-            <div class="row">
-              <div class="col-md-8">
-              <h3>Enter your number here:</h3>
-            <input type="text" id="number">
-              <button type="submit" class"btn-lg"> Click Here!</button>
-              <div id="result"></div>
-              </div>
-              <div class="col-md-4">
-                <h1>About The Game</h1>
-                 <h2>Created by</h2>
-                    Florah Masakhwe
-                  <h2>GitHub Username</h2>
-                    <div class="user">flomasakhwe</div>
-                  <h2>Level 2 Test for</h2>
-                    JavaScript
-              </div>
-            </div>
-          </form>
-     </div>
+    <h2>Rules:</h2>
+    <p>Ping Pong will count up to your number from 1 with the following exceptions:</p>
+    <ol>
+      <li>Numbers divisible by 3 become "ping"</li>
+      <li>Numbers divisible by 5 become "pong"</li>
+      <li>Numbers divisible by 15 become "pingpong"</li>
+    </ol>
+    <div class="container">
+      <form id="game">
+        <div class="row">
+          <div class="col-lg-8">
+            <h3>Enter your number here:</h3>
+            <input type=" number" id="number">
+            <button type="submit" class "btn-lg"> Click Here! </button>
+          </div>
+      </form>
+
+      <ul id="result">
+
+      </ul>
+        <div class="col-lg-4">
+          <h1>About The Game</h1>
+          <h2>Created by</h2>
+            Florah Masakhwe
+          <h2>GitHub Username</h2>
+            <div class="user">flomasakhwe</div>
+          <h2>Level 2 Test for</h2>
+            JavaScript
+         </div>
+      </div>
+    </div>
   </body>
+
 </html>
