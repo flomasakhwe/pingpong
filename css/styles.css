@@ -3,7 +3,7 @@
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  padding:80px;
+  height:600px;
   width:100%;
   text-align: center;
 }
@@ -14,4 +14,19 @@
 .intro p{
   font-size:60px;
   font-family:Titan One;
+}
+#rules h2{
+  font-size: 40px;
+}
+#rules p{
+  font-size:20px;
+}
+#rules li{
+  font-size: 20px;
+  line-height: 40px;
+}
+#game input{
+ height: 50px;
+ width:80%;
+ font-size: 20px;
 }
