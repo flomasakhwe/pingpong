@@ -12,8 +12,8 @@ Florah Masakhwe
 ##### Numbers divisible by 15 become 'pingpong'
 
 ### Example
-#### * Example Input: 15
-#### * Example Output:(1,2,ping,4,pong,6,7,8,9,10,11,12,13,14,pingpong)
+ * Example Input: 15
+ * Example Output:(1,2,ping,4,pong,6,7,8,9,10,11,12,13,14,pingpong)
 
 ## Languages Used
 * HTML
