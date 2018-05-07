@@ -2,14 +2,14 @@
 var pingPongNumbers = [];
 function pingPongNumber(num){
   for (var index = 1; index <= num; index ++){
-    if(index % 3 === 0){
-      pingPongNumbers.push("ping");
+    if(index % 15 === 0){
+      pingPongNumbers.push("pingpong")
     }
     else if(index % 5 === 0){
       pingPongNumbers.push("pong")
     }
-    else if(index % 15 === 0){
-      pingPongNumbers.push("pingpong")
+    else if(index % 3 === 0){
+      pingPongNumbers.push("ping")
     }
     else{
       pingPongNumbers.push(index)
@@ -27,7 +27,6 @@ $(document).ready(function(){
      $("#result").empty();
       var num = parseInt($("input#number").val());
       var pingPongNumbers = pingPongNumber(num);
-      console.log(pingPongNumbers);
       pingPongNumbers.forEach(function(pingPongNumber){
          $("ul#result").append('<li>' + pingPongNumber+ "</li>");
          event.preventDefault();
