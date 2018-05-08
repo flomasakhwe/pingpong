@@ -21,6 +21,6 @@ Instead of seeing a complete list of numbers though, a few of the numbers in the
 * JavaScript
 
 ### Link to deployed site
-flomasakhwe.github.io/pingpong/
+* Here is a link to the [Project Site](flomasakhwe.github.io/pingpong/)
 
 Copyright (c)2018 GitHub.Inc.
