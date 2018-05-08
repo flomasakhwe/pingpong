@@ -13,8 +13,23 @@ Instead of seeing a complete list of numbers though, a few of the numbers in the
 
 ### Example
  * Example Input: 15
- * Example Output:(1,2,ping,4,pong,6,7,8,9,10,11,12,13,14,pingpong)
-
+ * Example Output:
+    * 1
+    * 2
+    * ping
+    * 4
+    * pong
+    * ping
+    * 7
+    * 8
+    * ping
+    * pong
+    * 11
+    * ping
+    * 13
+    * 14
+    * pingpong
+    
 ## Languages Used
 * HTML
 * CSS
